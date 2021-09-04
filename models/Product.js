@@ -32,7 +32,7 @@ Product.init(
       allowNull: false,
       defaultValue: 10,
       validate: {
-        isNaN: false
+        isNumeric: true
       }
     },
     category_id: {
